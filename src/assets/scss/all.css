@@ -124,4 +124,25 @@ table {
 }
 .font-14 {
   font-size: 14px;
+}
+
+.btn {
+  max-width: 504px;
+  height: 50px;
+  text-align: center;
+  padding: 14px 212px;
+  border: none;
+  border-radius: 2px;
+}
+.btn-primary {
+  background-color: #FF9116;
+}
+.btn-primary:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+.btn-white {
+  background-color: #FFFFFF;
+}
+.btn-white:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
 }/*# sourceMappingURL=all.css.map */
