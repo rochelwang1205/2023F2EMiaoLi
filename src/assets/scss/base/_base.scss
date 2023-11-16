@@ -1,0 +1,44 @@
+// pallete colors
+.text{
+    &-primary{
+        color: #FF9116;
+    }
+    &-secondary{
+        color: #212121;
+    }
+    &-pale-gray{
+        color: #D9D9D9;
+    }
+    &-dark-gray{
+        color: #AFAFAF;
+    }
+    &-white{
+        color: #FFFFFF;
+    }   
+}
+.font{
+    &-64{
+        font-size: 64px;
+    }
+    &-48{
+        font-size: 48px;
+    }
+    &-35{
+        font-size: 35px;
+    }
+    &-32{
+        font-size: 32px;
+    }
+    &-24{
+        font-size: 24px;
+    }
+    &-20{
+        font-size: 20px;
+    }
+    &-16{
+        font-size: 16px;
+    }
+    &-14{
+        font-size: 14px;
+    }
+}

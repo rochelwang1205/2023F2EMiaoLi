@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/earlyaccess/nicomoji.css');
+@import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
+.noto-sans{
+    font-family: 'Noto Sans TC', sans-serif;
+    &-300{
+        font-weight: 300;
+    }
+    &-500{
+        font-weight: 500;
+    }
+    &-600{
+        font-weight: 600;
+    }
+    &-700{
+        font-weight: 700;
+    }
+}
+.nico-moji{
+    font-family: "Nico Moji";
+    &-400{
+        font-weight: 400;
+    }
+}
+.inika{
+    font-family: 'Inika', serif;
+    &-400{
+        font-weight: 400;
+    }
+}
+
