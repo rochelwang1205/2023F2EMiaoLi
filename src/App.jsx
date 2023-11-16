@@ -12,7 +12,7 @@ function App() {
       <h1 className="noto-sans noto-sans-500">Vite + React</h1>
       </div>
       <div className="">
-        <button onClick={() => setCount((count) => count + 1)}>
+        <button onClick={() => setCount((count) => count + 1)} className='btn btn-primary'>
           count is {count}
         </button>
         <p>
