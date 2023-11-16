@@ -2,15 +2,16 @@ import { useState } from 'react'
 import viteLogo from '/vite.svg'
 import './assets/scss/all.css'
 
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
       <div>
-      <h1>Vite + React</h1>
+      <h1 className="noto-sans noto-sans-500">Vite + React</h1>
       </div>
-      <div className="card">
+      <div className="">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>

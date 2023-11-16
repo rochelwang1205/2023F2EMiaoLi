@@ -1,44 +1,127 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-h1{
-  color:red;
-}
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-
-.logo:hover {
-  filter: drop-shadow(0 0 2em rgba(100, 108, 255, 0.6666666667));
-}
-
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em rgba(97, 218, 251, 0.6666666667));
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-.card {
-  padding: 2em;
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/earlyaccess/nicomoji.css");
+@import url("https://fonts.googleapis.com/css2?family=Inika&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
-.read-the-docs {
-  color: #888;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.noto-sans {
+  font-family: "Noto Sans TC", sans-serif;
+}
+.noto-sans-300 {
+  font-weight: 300;
+}
+.noto-sans-500 {
+  font-weight: 500;
+}
+.noto-sans-600 {
+  font-weight: 600;
+}
+.noto-sans-700 {
+  font-weight: 700;
+}
+
+.nico-moji {
+  font-family: "Nico Moji";
+}
+.nico-moji-400 {
+  font-weight: 400;
+}
+
+.inika {
+  font-family: "Inika", serif;
+}
+.inika-400 {
+  font-weight: 400;
+}
+
+.text-primary {
+  color: #FF9116;
+}
+.text-secondary {
+  color: #212121;
+}
+.text-pale-gray {
+  color: #D9D9D9;
+}
+.text-dark-gray {
+  color: #AFAFAF;
+}
+.text-white {
+  color: #FFFFFF;
+}
+
+.font-64 {
+  font-size: 64px;
+}
+.font-48 {
+  font-size: 48px;
+}
+.font-35 {
+  font-size: 35px;
+}
+.font-32 {
+  font-size: 32px;
+}
+.font-24 {
+  font-size: 24px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-14 {
+  font-size: 14px;
 }/*# sourceMappingURL=all.css.map */
